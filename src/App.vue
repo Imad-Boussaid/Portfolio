@@ -1,18 +1,27 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
-  <router-view/>
+  <main-header />
+  <router-view />
 </template>
+<script>
+import MainHeader from "./components/MainHeader.vue";
 
+export default {
+  name: "App",
+  components: {
+    MainHeader,
+  },
+};
+</script>
 <style lang="scss">
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: #080616;
 }
 
 nav {
@@ -20,11 +29,9 @@ nav {
 
   a {
     font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
+  }
+  li a.router-link-exact-active {
+    color: #2c3e50 !important;
   }
 }
 </style>
