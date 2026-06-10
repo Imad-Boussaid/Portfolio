@@ -6,15 +6,15 @@
         <div class="content">
           <h2>
             Vue.js World !<br />
-            I'm a web application <b>front-end</b> devloper
+            I'm a <b>Front-End </b> Web Application Developer.
           </h2>
           <p>
-            - I build scalable interactive web applications using the latest web
-            technologies <br />
-            - I design and develop modern facades that combine beauty and
-            efficiency <br />
-            - from design to execution , the oldest professional web solutions
-            that meet the needs of users
+            - I build scalable, interactive web applications using modern web
+            technologies.s <br />
+            - I design and develop beautiful, high-efficiency user interfaces.
+            <br />
+            - From design to execution, delivering tailored web solutions that
+            meet users' needs.
           </p>
         </div>
       </div>
